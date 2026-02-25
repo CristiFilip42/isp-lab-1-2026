@@ -19,10 +19,4 @@ public class MyFirstExampleTest {
         assertEquals(1, MyFirstExample.subtract(-1, -2));
     }
 
-    @Test
-    public void testMultiply() {
-        assertEquals(6, MyFirstExample.multiply(2, 3));
-        assertEquals(-1, MyFirstExample.multiply(-1, 1));
-        assertEquals(2, MyFirstExample.multiply(-1, -2));
-    }
 }

@@ -8,9 +8,10 @@ import java.util.Scanner;
 
 public class MyFirstExample {
     public static void main(String[] args) {
+        //print in console
         System.out.println("Hello, World!");
-        //read from console and print
         System.out.println("Enter two numbers: ");
+        //read from console
         Scanner scanner = new Scanner(System.in);
         int a = scanner.nextInt();
         int b = scanner.nextInt();
@@ -26,8 +27,5 @@ public class MyFirstExample {
         return a - b;
     }
 
-    public static int multiply(int a, int b) {
-        return a * b;
-    }
 
 }

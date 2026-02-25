@@ -68,8 +68,6 @@ Choosing the right tool depends on your project's requirements, team preferences
 
 ## Exercise
 
-### Exercises 1
-
 1. Load the project in your IDE.
 2. Run the class containing the `main` method.
 3. Run the provided tests.
@@ -77,7 +75,8 @@ Choosing the right tool depends on your project's requirements, team preferences
 5. Add a test to verify the new feature.
 6. Push all your changes to the remote repository using `git add`, `git commit`, and `git push` commands.
 7. Verify that your changes are reflected in the remote repository.
-8. Add a new class containing a `main` method and run it.
-9. push all your changes to the remote repository using `git add`, `git commit`, and `git push` commands.
+8. Add a new class containing a `main` method and create a method than can compute the sum of the first n even numbers.
+9. Add a test to verify the new feature.
+10. push all your changes to the remote repository.
 
-**NOTE:** As part of this laboratory is importan to become familiar with IDE (IntelliJ IDEA), Maven, and Git. You will use these tools throughout the semester to work on your projects and assignments. Understand the structure of a Maven project and how to run Java programs. 
+**NOTE:** As part of this laboratory is important to become familiar with IDE (IntelliJ IDEA), Maven, and Git. You will use these tools throughout the semester to work on your projects and assignments. Understand the structure of a Maven project and how to run Java programs. 
