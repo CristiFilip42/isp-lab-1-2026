@@ -17,6 +17,7 @@ public class MyFirstExample {
         int b = scanner.nextInt();
         System.out.println("Sum is: " + add(a, b));
         System.out.println("Difference is: " + subtract(a, b));
+        System.out.println("Impartirea este: " + impartire(a, b));
     }
 
     public static int add(int a, int b) {
@@ -27,5 +28,7 @@ public class MyFirstExample {
         return a - b;
     }
 
-
+    public static float impartire(int a, int b){
+        return (float) a /b;
+    }
 }

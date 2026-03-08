@@ -19,4 +19,11 @@ public class MyFirstExampleTest {
         assertEquals(1, MyFirstExample.subtract(-1, -2));
     }
 
+    @Test
+    public void testImpartire(){
+        assertEquals(1.0f, MyFirstExample.impartire(1,1));
+        assertEquals(0.5f, MyFirstExample.impartire(1,2));
+        assertEquals(2.0f, MyFirstExample.impartire(4,2));
+    }
+
 }
